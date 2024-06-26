@@ -2,9 +2,6 @@ provider "aws" {
   region = "eu-west-3"
 }
 
-module "vpc" {
-  source = "./vpc"
-}
 
 module "security_groups" {
   source = "./security_groups"
